@@ -1,0 +1,12 @@
+var a = 10;
+var b = 23.145;
+var c = "this is type script language string";
+var d = true;
+var e = false;
+var f = "Hello";
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
+console.log(f);

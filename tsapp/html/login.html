@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <link href="register.html" type="javascript">
+
+</head>
+
+
+<body>
+
+    Welcome To Login:<br>
+
+    User Name: <label id="uname"></label>
+
+
+
+
+</body>
+<script>
+    var url = new URLSearchParams(window.location.search);
+    const u = url.get('email');
+
+    // document.write(url);
+    // document.write(u);
+    document.getElementById("uname").innerHTML = u;
+
+</script>
+
+</html>
